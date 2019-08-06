@@ -1,0 +1,50 @@
+header{
+    /*Establecemos un fondo con imagen pero unicamente aplicar al header lo demas no se ve afectado*/
+    background-image: url("../Img/tipico.jpg");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+body{
+    background-color: skyblue;
+}
+
+.Bloque1{
+    border: 10px solid rgb(248, 193, 111);
+    background: rgb(255, 171, 0);
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    z-index: 3;
+}
+
+
+.Bloque2{
+    border: 20px solid #3EC483;
+    border-image: url("../Img/tipico.jpg");
+    background: #5DEAA8;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    /*Propiedad que nos permite manipular la orientacion exacta de la caja*/
+    position: absolute;
+    top: 620px;
+    left: 90px;
+    z-index: 2;
+}
+.Bloque3{
+    border: 10px solid #8d32b1;
+    background: #810baf;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 470px;
+    left: 300px;
+    /*Esta propiedad nos permite sobreponer una caja sobre otra e indicar el orden de las cajas*/
+    z-index: 1;
+
+}
